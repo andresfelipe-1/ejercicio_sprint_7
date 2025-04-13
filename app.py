@@ -11,7 +11,7 @@ def toss_coin(n): #función que emula el lanzamiento de una moneda
     trial_outcomes = scipy.stats.bernoulli.rvs(p=0.5, size=n)
 
     mean = None
-    Noneoutcome_no = 0
+    outcome_no = 0
     outcome_1_count = 0 
 
     for r in trial_outcomes:
